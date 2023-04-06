@@ -11,8 +11,9 @@ We focus on model architecture and learning paradigms to learn more about the st
 Images are more attractive compared to text. Visual aids can deliver information more directly. Visual content grabs the attention and keeps people engaged. Key activities such as presentation, learning, and all involve visual Communication to some degree. If designed well, it offers numerous benefits.
 
 ## Generative Models
-Generative models allow to synthesize novel data that is different from the real data but still looks just as realistic. A designer could train a generative model on images of cars and then let the resulting generative AI computationally dream up novel cars with different looks, accelerating the artistic prototyping process.
-There are Four types of generative models, GAN, VAE, Flow-based models, and Diffusion models. They have shown great success in generating high-quality samples, but each has some limitations of its own.
+- Generative models allow to synthesize novel data that is different from the real data but still looks just as realistic. A designer could train a generative model on images of cars and then let the resulting generative AI computationally dream up novel cars with different looks, accelerating the artistic prototyping process.
+- There are Four types of generative models, GAN, VAE, Flow-based models, and Diffusion models. They have shown great success in generating high-quality samples, but each has some limitations of its own.
+![182920524-381d8414-a61d-48d6-8378-3e10721ac879](https://user-images.githubusercontent.com/63863517/230326745-1982a6db-cda0-4588-aea7-af92ba698d41.png)
 
 ## Transformer & Taming transformer 
 - Transformer allow us to learning the complex relationships between the inputs, in other words that make them expressive. However, this is computationally expensive for long-range sequences.
@@ -48,3 +49,11 @@ we represent the images in terms of the codebook-indices of their embeddings. 
 
 
 ## Results (Before & After Optimization)
+1. VQGAN_model = "imagenet_f16-16384" , model = "ViT-B/32" , style = "Classicism"
+  - Prompt = 'أزهار جميلة'
+| Prompt | Before | after |
+| --- | --- | --- |
+| `'cosmic crystals of jelly and fire flowers'` | ![azhar gamela befor](https://user-images.githubusercontent.com/63863517/230329716-cf44b4ca-aef7-47c8-8aad-8ded7bb5cb16.png)
+ | ![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)
+ |
+| `git diff` |  |  |
