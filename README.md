@@ -46,6 +46,10 @@ we represent the images in terms of the codebook-indices of their embeddings. 
 - various CLIP models (incl. multi-language from SBERT).
 - optimization with SIREN.
 
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
 
 
 ## Results (Before & After Optimization)
