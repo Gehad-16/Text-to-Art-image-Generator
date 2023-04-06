@@ -12,31 +12,47 @@ Images are more attractive compared to text. Visual aids can deliver information
 
 ## Generative Models
 - Generative models allow to synthesize novel data that is different from the real data but still looks just as realistic. A designer could train a generative model on images of cars and then let the resulting generative AI computationally dream up novel cars with different looks, accelerating the artistic prototyping process.
+
 - There are Four types of generative models, GAN, VAE, Flow-based models, and Diffusion models. They have shown great success in generating high-quality samples, but each has some limitations of its own.
 ![182920524-381d8414-a61d-48d6-8378-3e10721ac879](https://user-images.githubusercontent.com/63863517/230326745-1982a6db-cda0-4588-aea7-af92ba698d41.png)
 
 ## Transformer & Taming transformer 
 - Transformer allow us to learning the complex relationships between the inputs, in other words that make them expressive. However, this is computationally expensive for long-range sequences.
+
 - To keep the sequence length small and to harness the expressiveness of the transformer, the taming transformer uses a separate codebook for learned representations (inspired by VQ-VAE).
+
 - Any image can be represented by a spatial collection of codebook entries , where nz is the dimensionality of codes.
+
 - Taming use  VQ-GAN, a variant of the original VQ-VAE that uses a discriminator and perceptual loss to keep good perceptual quality at increased compression rate.
+
 ### This is a two-step training architecture design:
 - Training the VQ-GAN and learning the quantized codebook.
+
 - Training an autoregressive transformer using the quantized codebook as sequential input to the transformer. 
+
 ### 1) Training the VQ-GAN and learning the quantized codebook :
+
 ![Training the VQ-GAN](https://user-images.githubusercontent.com/63863517/230320180-351568d6-1ecf-46c1-8209-1120d078c7db.png)
+
 #### Loss funtions of vqGan:
 - VQ Loss.
 - GAN Loss.
+
 ### 2) Train Transformer : 
 we represent the images in terms of the codebook-indices of their embeddings. 
+
 ![codebook ](https://user-images.githubusercontent.com/63863517/230322079-494f2dd8-90b9-4e97-b38a-05546b5db9a5.png)
 
 - In many images synthesis tasks, a user demands control over the generation process by providing additional information. This information, which we will call c.
-- The task is then to learn the likelihood of the sequence given this information c .    
+
+- The task is then to learn the likelihood of the sequence given this information c .  
+  
 ![taming](https://user-images.githubusercontent.com/63863517/230323981-e500795f-aea2-47b5-af71-b3f8e187d3c8.png)
+
 ![taming2](https://user-images.githubusercontent.com/63863517/230323984-f6835c51-153f-414e-9bfd-b3cd28e62c2d.png)
+
 ### To generate high-resolution images and reduce computational cost, sliding attention can be used instead of full attention.
+
 ![high-resolution](https://user-images.githubusercontent.com/63863517/230323973-f0daec96-8411-4647-ba90-17674b5d2197.png)
 
 
