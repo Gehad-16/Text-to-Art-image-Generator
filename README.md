@@ -19,5 +19,8 @@ Based on CLIP + VQGAN from Taming Transformers.
 various CLIP models (incl. multi-language from SBERT).
 optimization with SIREN
 
+![gg](https://user-images.githubusercontent.com/63863517/230315975-141e526a-5763-48b0-b290-bcc205e81763.png)
+
+
 
 ## Results (Before & After Optimization)
