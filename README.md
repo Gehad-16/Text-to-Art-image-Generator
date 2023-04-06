@@ -50,10 +50,9 @@ we represent the images in terms of the codebook-indices of their embeddings. 
 
 ## Results (Before & After Optimization)
 1. VQGAN_model = "imagenet_f16-16384" , model = "ViT-B/32" , style = "Classicism"
-  - Prompt = 'أزهار جميلة'
 | Prompt | Before | after |
 | --- | --- | --- |
 | `'cosmic crystals of jelly and fire flowers'` | ![azhar gamela befor](https://user-images.githubusercontent.com/63863517/230329716-cf44b4ca-aef7-47c8-8aad-8ded7bb5cb16.png)
  | ![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)
  |
-| `git diff` |  |  |
+
