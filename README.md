@@ -23,6 +23,8 @@ There are Four types of generative models, GAN, VAE, Flow-based models, and Diff
 - Training the VQ-GAN and learning the quantized codebook.
 - Training an autoregressive transformer using the quantized codebook as sequential input to the transformer. 
 #### 1) Training the VQ-GAN and learning the quantized codebook.
+![Training the VQ-GAN](https://user-images.githubusercontent.com/63863517/230320180-351568d6-1ecf-46c1-8209-1120d078c7db.png)
+
 
 
 
