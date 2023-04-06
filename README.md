@@ -51,7 +51,7 @@ we represent the images in terms of the codebook-indices of their embeddings. 
 ## Results (Before & After Optimization)
 1. VQGAN_model = "imagenet_f16-16384" , model = "ViT-B/32" , style = "Classicism"
 
-| Command | Description |
-| --- | --- |
-| `git status` | ![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)|
-| `git diff` | Show file differences that **haven't been** staged |
+| Prompt | Before | After |
+| --- | --- | --- |
+| `git status` | ![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)| ![azhar gamela befor](https://user-images.githubusercontent.com/63863517/230329716-cf44b4ca-aef7-47c8-8aad-8ded7bb5cb16.png)|
+| `git diff` | Show file differences that **haven't been** staged | jjj |
