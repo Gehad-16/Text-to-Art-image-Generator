@@ -79,7 +79,7 @@ we represent the images in terms of the codebook-indices of their embeddings. 
 
 | **Prompt** | **Before** | **After** |
 | --- | --- | --- |
-| `git status` |![azhar gamela befor](https://user-images.githubusercontent.com/63863517/230329716-cf44b4ca-aef7-47c8-8aad-8ded7bb5cb16.png)|![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)|
+| `ازهار جميلة` |![azhar gamela befor](https://user-images.githubusercontent.com/63863517/230329716-cf44b4ca-aef7-47c8-8aad-8ded7bb5cb16.png)|![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)|
 | ` 'cosmic crystals of jelly and fire flowers'` |![crystals](https://user-images.githubusercontent.com/63863517/230334959-602abd89-db8e-4504-954b-b718444e5059.png)|![crystals after](https://user-images.githubusercontent.com/63863517/230334954-e5d422f9-4a9e-42b3-8966-9f4128780f0a.png)|
 
 
