@@ -49,18 +49,18 @@ we represent the images in terms of the codebook-indices of their embeddings. 
 
 
 ## Results (Before & After Optimization)
-1. **VQGAN_model** = *"imagenet_f16-16384" , model = "ViT-B/32" , style = "Classicism"
+1. **VQGAN_model = "imagenet_f16-16384" , model = "ViT-B/32" , style = "Classicism"**
 
-| Prompt | Before | After |
+| **Prompt** | **Before** | **After** |
 | --- | --- | --- |
 | `git status` |![azhar gamela befor](https://user-images.githubusercontent.com/63863517/230329716-cf44b4ca-aef7-47c8-8aad-8ded7bb5cb16.png)|![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)|
 | ` 'cosmic crystals of jelly and fire flowers'` |![crystals](https://user-images.githubusercontent.com/63863517/230334959-602abd89-db8e-4504-954b-b718444e5059.png)|![crystals after](https://user-images.githubusercontent.com/63863517/230334954-e5d422f9-4a9e-42b3-8966-9f4128780f0a.png)|
 
-2. VQGAN_model = "sflckr" , model = "ViT-B/32" , style = "Post-Impressionism"
+2. **VQGAN_model = "sflckr" , model = "ViT-B/32" , style = "Post-Impressionism"**
 
-| Prompt | Before | After |
+| **Prompt** | **Before** | **After** |
 | --- | --- | --- |
-| `'Victorian house on hill'` | ![azhar gamela befor](https://user-images.githubusercontent.com/63863517/230329716-cf44b4ca-aef7-47c8-8aad-8ded7bb5cb16.png)| ![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)|
-| `'beautiful waterfall'` | Show file differences that **haven't been** staged | jjj |
+| `'Victorian house on hill'` |![Victorian before](https://user-images.githubusercontent.com/63863517/230334948-dfa556ce-e25a-4b79-812a-ef5f66fee533.png)|![Victorian after](https://user-images.githubusercontent.com/63863517/230334941-2a7de1ed-e7e5-4170-88d6-675631e91112.png)|
+| `'beautiful waterfall'` |![waterfall befor](https://user-images.githubusercontent.com/63863517/230334935-57b72c5d-fbc5-4b51-b7b8-dfcee5633ecc.png)|![waterfall after](https://user-images.githubusercontent.com/63863517/230334929-6fb108f3-8962-4325-93d5-f3dd049d073d.png)|
 
 
