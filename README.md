@@ -50,6 +50,8 @@ we represent the images in terms of the codebook-indices of their embeddings. 
 
 ## Results (Before & After Optimization)
 1. VQGAN_model = "imagenet_f16-16384" , model = "ViT-B/32" , style = "Classicism"
-| Prompt | Before | after |
-| --- | --- | --- |
 
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
