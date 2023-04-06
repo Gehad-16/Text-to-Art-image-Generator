@@ -22,8 +22,18 @@ There are Four types of generative models, GAN, VAE, Flow-based models, and Diff
 ### This is a two-step training architecture design:
 - Training the VQ-GAN and learning the quantized codebook.
 - Training an autoregressive transformer using the quantized codebook as sequential input to the transformer. 
-#### 1) Training the VQ-GAN and learning the quantized codebook.
+### 1) Training the VQ-GAN and learning the quantized codebook :
 ![Training the VQ-GAN](https://user-images.githubusercontent.com/63863517/230320180-351568d6-1ecf-46c1-8209-1120d078c7db.png)
+#### Loss funtions of vqGan:
+- VQ Loss.
+- GAN Loss.
+### 2) Train Transformer : 
+we represent the images in terms of the codebook-indices of their embeddings. 
+![codebook ](https://user-images.githubusercontent.com/63863517/230322079-494f2dd8-90b9-4e97-b38a-05546b5db9a5.png)
+
+    • In many images synthesis tasks, a user demands control over the generation process by providing additional information. This information, which we will call c.
+    • The task is then to learn the likelihood of the sequence given this information c
+
 
 
 
