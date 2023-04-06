@@ -31,19 +31,19 @@ There are Four types of generative models, GAN, VAE, Flow-based models, and Diff
 we represent the images in terms of the codebook-indices of their embeddings. 
 ![codebook ](https://user-images.githubusercontent.com/63863517/230322079-494f2dd8-90b9-4e97-b38a-05546b5db9a5.png)
 
-    • In many images synthesis tasks, a user demands control over the generation process by providing additional information. This information, which we will call c.
-    • The task is then to learn the likelihood of the sequence given this information c
-
-
+- In many images synthesis tasks, a user demands control over the generation process by providing additional information. This information, which we will call c.
+- The task is then to learn the likelihood of the sequence given this information c .    
+![taming](https://user-images.githubusercontent.com/63863517/230323981-e500795f-aea2-47b5-af71-b3f8e187d3c8.png)
+![taming2](https://user-images.githubusercontent.com/63863517/230323984-f6835c51-153f-414e-9bfd-b3cd28e62c2d.png)
+### To generate high-resolution images and reduce computational cost, sliding attention can be used instead of full attention.
+![high-resolution](https://user-images.githubusercontent.com/63863517/230323973-f0daec96-8411-4647-ba90-17674b5d2197.png)
 
 
 
 ## Our model
-Based on CLIP + VQGAN from Taming Transformers.
-various CLIP models (incl. multi-language from SBERT).
-optimization with SIREN
-
-![gg](https://user-images.githubusercontent.com/63863517/230315975-141e526a-5763-48b0-b290-bcc205e81763.png)
+- Based on CLIP + VQGAN from Taming Transformers.
+- various CLIP models (incl. multi-language from SBERT).
+- optimization with SIREN.
 
 
 
