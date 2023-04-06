@@ -53,6 +53,5 @@ we represent the images in terms of the codebook-indices of their embeddings. 
 
 | Command | Description |
 | --- | --- |
-| `git status` | ![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)
- |
+| `git status` | ![azhar gamela after](https://user-images.githubusercontent.com/63863517/230329813-41d7fa4b-1376-48af-9724-3b402b52a548.png)|
 | `git diff` | Show file differences that **haven't been** staged |
